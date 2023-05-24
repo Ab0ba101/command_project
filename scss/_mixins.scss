@@ -1,0 +1,13 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin textStyle($weight, $size, $line) {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+  }
